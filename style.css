@@ -18,8 +18,8 @@ h1 {
 }
 .input {
     display: block;
-    color: black;
-    padding: 2px 4px;
+    gap: 10px;
+    margin-bottom: 20px;
 }
 .button {
     color: black;
@@ -27,7 +27,10 @@ h1 {
     border: 2px solid wheat;
     padding: 2px 4px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 2px;
+    border-radius: 4px;
+}
+.button:hover{
+    background-color: #f0d896;
 }
 .ulist{
     list-style: none;
@@ -46,10 +49,13 @@ li {
 }
 
 .delete-btn {
-    color: black;
-    background-color: red;
-    border: 2px solid red;
-    padding: 4px 8px;
-    border-radius: 2px;
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
     cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: #c0392b;  /* Darker red on hover */
 }
